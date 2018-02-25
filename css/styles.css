@@ -11,20 +11,17 @@ body {
   min-width: 350px;
 }
 
-header {
-  grid-column-start: 2;
-  grid-column-end: auto;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  background-color: pink;
-}
 
 main {
   grid-column-start: 2;
   grid-column-end: auto;
   grid-row-start: 3;
   grid-row-end: 4;
-  background-color: #222;
+  height: 800px;
+}
+
+li {
+  font-weight: 800;
 }
 
 /*======================================================
@@ -100,10 +97,6 @@ aside ul {
   padding: 0;
 }
 
-aside li {
-  font-weight: 700;
-}
-
 aside li i {
   padding-right: .6rem;
 }
@@ -134,6 +127,7 @@ figcaption i {
   border-radius: 100%;
   vertical-align: middle;
   width: 40%;
+  margin-right: 10px;
 }
 
 .aside__figure-caption {
@@ -181,4 +175,57 @@ figcaption i {
 
 .icon-green {
   color: green;
+}
+
+/*======================================================
+   HEADER STYLING
+======================================================== */
+
+header {
+  grid-column-start: 2;
+  grid-column-end: auto;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  border-bottom: .2rem solid #ccc;
+}
+
+header section {
+  margin: 3.5rem auto 4rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+header h1 {
+  font-weight: 400;
+  margin-bottom: 0;
+
+}
+
+header ul {
+  width: 80%;
+}
+
+header a {
+  color: #2baafa;
+  text-decoration: none;
+}
+
+header li {
+  display: inline-block;
+  margin-right: 3rem;
+  padding-bottom: 1rem;
+  letter-spacing: .1rem;
+  padding-left: 2rem;
+}
+
+.header__ul-a {
+  color: #868f9d;
+}
+
+.header__ul-a:hover {
+  color: #5f718c;
+  border-bottom: .3rem solid #009df8;
+  padding-bottom: 1.6rem;
 }
