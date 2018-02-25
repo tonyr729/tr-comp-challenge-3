@@ -6,10 +6,12 @@
 .icon-location:before { content: '\e804'; } /* '' */
 .icon-briefcase:before { content: '\e805'; } /* '' */
 .icon-clipboard:before { content: '\e806'; } /* '' */
+.icon-search:before { content: '\e807'; } /* '' */
 .icon-doc:before { content: '\e808'; } /* '' */
 .icon-linkedin:before { content: '\e809'; } /* '' */
 .icon-share:before { content: '\e80a'; } /* '' */
 .icon-globe:before { content: '\e80b'; } /* '' */
+.icon-left-dir:before { content: '\e80c'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
 .icon-up-open:before { content: '\f005'; } /* '' */
 .icon-menu:before { content: '\f008'; } /* '' */
