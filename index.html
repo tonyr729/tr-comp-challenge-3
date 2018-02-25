@@ -7,15 +7,15 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/normalize.css">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Dosis:300,400,700" rel="stylesheet">
 </head>
 <body>
   <nav class="nav">
-    <button class="nav__button"></button>
-    <input type="text" class="nav__search" name="search" placeholder="Search for a task, job, or resume.">
-    <button class="nav__button"></button>
-    <button class="nav__button"></button>
-    <button class="nav__button"></button>
+    <button class="nav__button"><i class="icon-left-dir"></i><i class="icon-menu"></i></button>
+    <input type="search" class="nav__search" name="search" placeholder="Search for a task, job, or resume.">
+    <button class="nav__button"><i class="icon-user-plus"></i></button>
+    <button class="nav__button"><i class="icon-calendar-plus-o"></i></button>
+    <button class="nav__button"><i class="icon-th"></i></button>
   </nav>
   <header class="header">
     <section class="">
@@ -35,7 +35,7 @@
   </header>
   <aside class="aside">
     <figure class="aside__figure"><img class="aside__figure-profile" src="images/profilepic.png" alt="Profile Picture"></figure>
-    <figcaption class="aside__figure-caption">Newton Barley</figcaption>
+    <figcaption class="aside__figure-caption">Newton Barley<i class="icon-down-open"></i></figcaption>
     <h2 class="aside__h2">Main</h2>
     <ul>
       <li><a href="#" class="aside__link aside__link-home"><i class="icon-home"></i>HOME</a></li>
@@ -54,10 +54,10 @@
     </ul>
     <h2 class="aside__h2">Categories</h2>
     <ul>
-      <li class="">Administrative</li>
-      <li class="">Design</li>
-      <li class="">Executive</li>
-      <li class="">Human Resources</li>
+      <li><a href="#" class="aside__link aside__link-categorie"><i class="icon-yellow icon-blank"></i>Administration</a></li>
+      <li><a href="#" class="aside__link aside__link-categorie"><i class="icon-blue icon-blank"></i>Design</a></li>
+      <li><a href="#" class="aside__link aside__link-categorie"><i class="icon-red icon-blank"></i>Executive</a></li>
+      <li><a href="#" class="aside__link aside__link-categorie"><i class="icon-green icon-blank"></i>Human Resources</a></li>
     </ul>
   </aside>
   <main class="main">
