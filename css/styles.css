@@ -11,15 +11,6 @@ body {
   min-width: 350px;
 }
 
-
-main {
-  grid-column-start: 2;
-  grid-column-end: auto;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  height: 800px;
-}
-
 li {
   font-weight: 800;
 }
@@ -258,3 +249,100 @@ div button i {
   border-bottom: .3rem solid #009df8;
   padding-bottom: 1.6rem;
 }
+
+/*======================================================
+   MAIN STYLING
+======================================================== */
+
+main {
+  grid-column-start: 2;
+  grid-column-end: auto;
+  grid-row-start: 3;
+  grid-row-end: auto;
+  height: 800px;
+}
+
+main section {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto 0 auto;
+  width: 95%;
+}
+
+main article {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+/*======================================================
+   MAIN__DOUGHNUT STYLING
+======================================================== */
+
+.main__article-left {
+  width: 50%;
+}
+
+.main__doughnut {
+  width: 28%;
+  margin: 0 3rem 3rem 0;
+}
+
+.main__doughnut-text {
+  transform: translateY(0.4em);
+  text-anchor: middle;
+
+}
+
+.main__doughnut-text--number {
+  font-size: 7px;
+  transform: translateY(-3px);
+}
+
+.main__doughnut-text--topic {
+  font-size: 3px;
+  transform: translateY(2px);
+}
+
+.main__doughnut-segment1 {
+  stroke-dasharray: 0 100;
+  stroke-dashoffset: -25;
+  animation: dashone 1s linear forwards;
+}
+
+@keyframes dashone {
+  to {
+    stroke-dasharray: 80 20;
+  }
+}
+
+.main__doughnut-segment2 {
+  stroke-dasharray: 0 100;
+  stroke-dashoffset: -25;
+  animation: dashtwo 1s linear forwards;
+}
+
+@keyframes dashtwo {
+  to {
+    stroke-dasharray: 40 60;
+  }
+}
+
+.main__doughnut-segment3 {
+  stroke-dasharray: 0 100;
+  stroke-dashoffset: -25;
+  animation: dashthree 1s linear forwards;
+}
+
+@keyframes dashthree {
+  to {
+    stroke-dasharray: 25 75;
+  }
+}
+
+.main__vertchart {
+  width: 82%;
+}
+
+

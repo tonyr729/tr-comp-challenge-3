@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="css/normalize.css">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Dosis:700|Open+Sans:400,800" rel="stylesheet">
-
 </head>
 <body>
   <nav class="nav">
@@ -19,7 +18,7 @@
     <button class="nav__button"><i class="icon-th"></i></button>
   </nav>
   <header class="header">
-    <section class="">
+    <section class="header__section">
       <div>
         <h1 class="header__h1">Customer Service Representative</h1>
         <p class="header__text-location"><i class="icon-location"></i>San Francisco, CA ∙ <a href="#" class="header__link-preview">Preview this post</a></p>
@@ -69,18 +68,48 @@
     </ul>
   </aside>
   <main class="main">
-    <section class="">
-      <article class=""></article>
-      <p>blah</p>
-      <article class=""></article>
+    <section class="main__section-graphs">
+      <article class="main__article-left">
+        <svg class="main__doughnut main__doughnut-left" viewBox="0 0 36 40">
+          <circle class="main__donut-hole" cx="18" cy="21" r="15.91549430918954" fill="#fff"></circle>
+          <circle class="main__doughnut-ring" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+          <circle class="main__doughnut-segment1" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#48bac1" stroke-width="3" stroke-dashoffset="-25" stroke-dasharray="0 100" stroke-linecap="round"></circle>
+          <g class="main__doughnut-text">
+            <text class="main__doughnut-text--number" x="50%" y="50%">3,154</text>
+            <text class="main__doughnut-text--topic" x="50%" y="50%">APPLICANTS</text>
+          </g>
+        </svg>
+        <svg class="main__doughnut main__doughnut-middle" viewBox="0 0 36 40">
+          <circle class="main__donut-hole" cx="18" cy="21" r="15.91549430918954" fill="#fff"></circle>
+          <circle class="main__doughnut-ring" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+          <circle class="main__doughnut-segment2" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#16a5fa" stroke-width="3" stroke-dashoffset="-25" stroke-dasharray="0 100" stroke-linecap="round"></circle>
+          <g class="main__doughnut-text">
+            <text class="main__doughnut-text--number" x="50%" y="50%">1,546</text>
+            <text class="main__doughnut-text--topic" x="50%" y="50%">INTERVIEWS</text>
+          </g>
+        </svg>
+        <svg class="main__doughnut main__doughnut-right" viewBox="0 0 36 40">
+          <circle class="main__donut-hole" cx="18" cy="21" r="15.91549430918954" fill="#fff"></circle>
+          <circle class="main__doughnut-ring" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+          <circle class="main__doughnut-segment3" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#ae6aaf" stroke-width="3" stroke-dashoffset="-25" stroke-dasharray="0 100" stroke-linecap="round"></circle>
+          <g class="main__doughnut-text">
+            <text class="main__doughnut-text--number" x="50%" y="50%">912</text>
+            <text class="main__doughnut-text--topic" x="50%" y="50%">FORWARDS</text>
+          </g>
+        </svg>
+      </article>
+      <article class="main__article-right">
+        <img src="images/damnchart.svg" class="main__vertchart" alt="Vertical bar chart of data from throughout the week">
+      </article>
     </section>
-    <section class="">
-      <article class=""></article>
-      <article class=""></article>
-    </section>
-    <section class="">
-      <article class=""></article>
-      <article class=""></article>
+    <div class="main__div-divider">
+      <div></div>
+      <button class="main__button-collapse"></button>
+      <div></div>
+    </div>
+    <section class="main__section-info">
+      <article class="main__article-job"></article>
+      <article class="main__article-social"></article>
     </section>
   </main>
 </body>
