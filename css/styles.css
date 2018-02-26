@@ -194,7 +194,7 @@ header section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  width: 95%;
 }
 
 header h1 {
@@ -204,7 +204,9 @@ header h1 {
 }
 
 header ul {
-  width: 80%;
+  width: 95%;
+  margin: 0 auto 1rem;
+  padding: 0;
 }
 
 header a {
@@ -217,7 +219,34 @@ header li {
   margin-right: 3rem;
   padding-bottom: 1rem;
   letter-spacing: .1rem;
-  padding-left: 2rem;
+}
+
+div button i {
+  font-size: 1.1rem;
+}
+
+.header__button {
+  border-radius: 2rem;
+  border: 0.2rem solid #d7dee6;
+  color: #8891a1;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 3.4rem;
+  width: 3.4rem;
+  margin: 1rem;
+}
+
+.header__button-open {
+  width: 7rem;
+}
+
+.icon-circle {
+  color: #8ac631;
+}
+
+.icon-bookmark {
+  position: relative;
+  top: 1px;
 }
 
 .header__ul-a {
