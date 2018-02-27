@@ -30,6 +30,7 @@
         <button class="button__general"><i class="icon-trash"></i></button>
       </div>
     </section>
+    <button class="header__btn-hidden">MENU</button>
     <ul class="header__ul">
       <li><a href="#" class="header__ul-a" aria-label="link to Summary sub page">SUMMARY</a></li>
       <li><a href="#" class="header__ul-a" aria-label="link to Applicants sub page">APPLICANTS</a></li>
@@ -70,40 +71,44 @@
   <main class="main">
     <section class="main__section-graphs">
       <article class="main__article-left">
-        <svg class="main__doughnut main__doughnut-left" viewBox="0 0 36 39">
-          <circle class="main__donut-hole" cx="18" cy="21" r="15.91549430918954" fill="#ecf2f6"></circle>
-          <circle class="main__doughnut-ring" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
-          <circle class="main__doughnut-segment1" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#48bac1" stroke-width="3" stroke-dashoffset="-25" stroke-dasharray="0 100" stroke-linecap="round"></circle>
-          <g class="main__doughnut-text">
-            <text class="main__doughnut-text--number" x="50%" y="50%">3,154</text>
-            <text class="main__doughnut-text--topic" x="50%" y="50%">APPLICANTS</text>
-          </g>
-        </svg>
-        <svg class="main__doughnut main__doughnut-middle" viewBox="0 0 36 39">
-          <circle class="main__donut-hole" cx="18" cy="21" r="15.91549430918954" fill="#ecf2f6"></circle>
-          <circle class="main__doughnut-ring" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
-          <circle class="main__doughnut-segment2" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#16a5fa" stroke-width="3" stroke-dashoffset="-25" stroke-dasharray="0 100" stroke-linecap="round"></circle>
-          <g class="main__doughnut-text">
-            <text class="main__doughnut-text--number" x="50%" y="50%">1,546</text>
-            <text class="main__doughnut-text--topic" x="50%" y="50%">INTERVIEWS</text>
-          </g>
-        </svg>
-        <svg class="main__doughnut main__doughnut-right" viewBox="0 0 36 39">
-          <circle class="main__donut-hole" cx="18" cy="21" r="15.91549430918954" fill="#ecf2f6"></circle>
-          <circle class="main__doughnut-ring" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
-          <circle class="main__doughnut-segment3" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#ae6aaf" stroke-width="3" stroke-dashoffset="-25" stroke-dasharray="0 100" stroke-linecap="round"></circle>
-          <g class="main__doughnut-text">
-            <text class="main__doughnut-text--number" x="50%" y="50%">912</text>
-            <text class="main__doughnut-text--topic" x="50%" y="50%">FORWARDS</text>
-          </g>
-        </svg>
+        <div class="main__div-doughnut">
+          <svg class="main__doughnut main__doughnut-left" viewBox="0 0 36 39">
+            <circle class="main__donut-hole" cx="18" cy="21" r="15.91549430918954" fill="#ecf2f6"></circle>
+            <circle class="main__doughnut-ring" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+            <circle class="main__doughnut-segment1" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#48bac1" stroke-width="3" stroke-dashoffset="-25" stroke-dasharray="0 100" stroke-linecap="round"></circle>
+            <g class="main__doughnut-text">
+              <text class="main__doughnut-text--number" x="50%" y="50%">3,154</text>
+              <text class="main__doughnut-text--topic" x="50%" y="50%">APPLICANTS</text>
+            </g>
+          </svg>
+          <svg class="main__doughnut main__doughnut-middle" viewBox="0 0 36 39">
+            <circle class="main__donut-hole" cx="18" cy="21" r="15.91549430918954" fill="#ecf2f6"></circle>
+            <circle class="main__doughnut-ring" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+            <circle class="main__doughnut-segment2" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#16a5fa" stroke-width="3" stroke-dashoffset="-25" stroke-dasharray="0 100" stroke-linecap="round"></circle>
+            <g class="main__doughnut-text">
+              <text class="main__doughnut-text--number" x="50%" y="50%">1,546</text>
+              <text class="main__doughnut-text--topic" x="50%" y="50%">INTERVIEWS</text>
+            </g>
+          </svg>
+          <svg class="main__doughnut main__doughnut-right" viewBox="0 0 36 39">
+            <circle class="main__donut-hole" cx="18" cy="21" r="15.91549430918954" fill="#ecf2f6"></circle>
+            <circle class="main__doughnut-ring" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+            <circle class="main__doughnut-segment3" cx="18" cy="21" r="15.91549430918954" fill="transparent" stroke="#ae6aaf" stroke-width="3" stroke-dashoffset="-25" stroke-dasharray="0 100" stroke-linecap="round"></circle>
+            <g class="main__doughnut-text">
+              <text class="main__doughnut-text--number" x="50%" y="50%">912</text>
+              <text class="main__doughnut-text--topic" x="50%" y="50%">FORWARDS</text>
+            </g>
+          </svg>
+        </div>
+        <button class="button__general main__btn-left">TOTALS ∙ Out of <b>5,231</b> views</button>
       </article>
       <article class="main__article-right">
         <img src="images/damnchart.svg" class="main__vertchart" alt="Vertical bar chart of data from throughout the week">
+        <button class="button__general main__btn-right">APPLICANTS/DAY</button>
       </article>
-      <div class="main__div-button">
-        <button class="button__general main__button-left">TOTALS ∙ Out of <b>5,231</b> views</button>
-        <button class="button__general main__button-right">APPLICANTS/DAY</button>
+      <!-- <div class="main__div-button"> -->
+        
+        
       </div>
     </section>
     <div class="main__div-divider">

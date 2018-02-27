@@ -230,6 +230,15 @@ div button i {
   top: 1px;
 }
 
+.header__btn-hidden {
+  background-color: #354052;
+  padding: 1rem;
+  display: none;
+  width: 95%;
+  color: #fff;
+  margin: 0 auto 1rem;
+}
+
 .header__ul-a {
   color: #868f9d;
 }
@@ -265,6 +274,7 @@ main section {
 main article {
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 50%;
 }
@@ -276,13 +286,17 @@ main h2 {
 
 /*========== MAIN-GRAPH SECTION STYLING =========== */
 
+.main__div-doughnut {
+  display: flex;
+}
+
 .main__article-left {
   width: 50%;
 }
 
 .main__doughnut {
   width: 28%;
-  margin: 0 3rem 3rem 0;
+  margin: 0 auto 3rem;
 }
 
 .main__doughnut-text {
@@ -348,16 +362,16 @@ main h2 {
   margin: 0 auto;
 }
 
-.main__button-left {
+.main__btn-left {
   width: 17rem;
   font-weight: 400;
-  margin-left: 15.7rem;
+  margin-bottom: 2rem;
 }
 
-.main__button-right {
+.main__btn-right {
   width: 12rem;
   font-weight: 400;
-  margin-right: 17rem;
+  margin-bottom: 2rem;
 }
 
 /*===== MAIN-DIVIDER STYLING =====*/
@@ -381,7 +395,7 @@ main h2 {
 
 .main__section-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto 3rem;
   width: 91%;
 
@@ -390,6 +404,7 @@ main h2 {
 /*--- Table Styling ---*/
 
 .main__article-job {
+  align-self: flex-start;
   background-color: #fff;
   display: grid;
   grid-template-columns: auto auto;
@@ -542,7 +557,67 @@ main h2 {
   margin-bottom: 0;
 }
 
+/*======================================================
+   HEADER STYLING
+======================================================== */
 
+@media screen and (max-width: 1180px) {
+  .main__article-job,
+  .main__article-social {
+    width: 95%;
+  }
 
+  .header__ul {
+    font-size: 1rem;
+  }
+}
 
+@media screen and (max-width: 940px) {
+  .header__ul {
+    display: none;
+  }
+  
+  .header__btn-hidden {
+    display: block;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  body {
+    grid-template-rows: 60px auto auto;
+    grid-template-columns: auto auto;
+  }
+
+  nav,
+  header,
+  main {
+    grid-column-start: 1;
+  }
+
+  .main__article-job,
+  .main__article-social,
+  .main__article-left,
+  .main__article-right {
+    width: 95%;
+  }
+
+  aside {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 5px;
+  }
+}
