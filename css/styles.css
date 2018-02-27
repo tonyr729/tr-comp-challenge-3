@@ -11,8 +11,19 @@ body {
   min-width: 350px;
 }
 
-li {
+/*li {
   font-weight: 800;
+}*/
+
+.button__general {
+  border-radius: 2rem;
+  border: 0.2rem solid #d7dee6;
+  color: #8891a1;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 3.4rem;
+  width: 3.4rem;
+  margin: 1rem;
 }
 
 /*======================================================
@@ -216,17 +227,6 @@ div button i {
   font-size: 1.1rem;
 }
 
-.header__button {
-  border-radius: 2rem;
-  border: 0.2rem solid #d7dee6;
-  color: #8891a1;
-  font-size: 1rem;
-  font-weight: bold;
-  height: 3.4rem;
-  width: 3.4rem;
-  margin: 1rem;
-}
-
 .header__button-open {
   width: 7rem;
 }
@@ -259,11 +259,13 @@ main {
   grid-column-end: auto;
   grid-row-start: 3;
   grid-row-end: auto;
+  background-color: #ecf2f6;
   height: 800px;
 }
 
 main section {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 3rem auto 0 auto;
   width: 95%;
@@ -276,9 +278,7 @@ main article {
   width: 50%;
 }
 
-/*======================================================
-   MAIN__DOUGHNUT STYLING
-======================================================== */
+/*========== GRAPH SECTION STYLING =========== */
 
 .main__article-left {
   width: 50%;
@@ -296,13 +296,13 @@ main article {
 }
 
 .main__doughnut-text--number {
-  font-size: 7px;
-  transform: translateY(-3px);
+  font-size: .7rem;
+  transform: translateY(-.3rem);
 }
 
 .main__doughnut-text--topic {
-  font-size: 3px;
-  transform: translateY(2px);
+  font-size: .3rem;
+  transform: translateY(.2rem);
 }
 
 .main__doughnut-segment1 {
@@ -345,4 +345,38 @@ main article {
   width: 82%;
 }
 
+.main__div-button {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}
 
+.main__button-left {
+  width: 17rem;
+  font-weight: 400;
+  margin-left: 15.7rem;
+}
+
+.main__button-right {
+  width: 12rem;
+  font-weight: 400;
+  margin-right: 17rem;
+}
+
+/*===== DIVIDER STYLING =====*/
+
+.main__div-divider {
+  display: flex;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.main__div-hr {
+  width: 45%;
+  margin-top: 1rem;
+}
+
+.main__button-collapse {
+  margin: 0 .5em;
+}
