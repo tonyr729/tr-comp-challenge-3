@@ -387,6 +387,8 @@ main h2 {
 
 }
 
+/*--- Table Styling ---*/
+
 .main__article-job {
   background-color: #fff;
   display: grid;
@@ -452,3 +454,41 @@ main h2 {
   bottom: 1.5rem;
   margin-right: 1rem;
 }
+
+/*--- Social Styling ---*/
+
+.main__article-social {
+  margin-top: 4rem;
+  display: inline-flex;
+  flex-flow: column wrap;
+  width: 35%;
+}
+.main__social-btn {
+  width: 100%;
+  border: none;
+  border-radius: .2rem;
+  color: white;
+  padding: 1.2rem 10rem 1.2rem 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.main__social-facebook {
+  background-color: #496ec1;
+}
+
+.main__social-twitter {
+  background-color: #00a8ef;
+}
+
+.main__social-linkedin {
+  background-color: #0283be;
+}
+
+.social__icon {
+  font-size: 2rem;
+  padding: 0 7rem 0 0;
+}
+
+
+
