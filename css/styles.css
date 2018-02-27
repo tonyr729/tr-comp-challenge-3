@@ -397,15 +397,14 @@ main h2 {
   width: 60%;
   font-weight: 400;
   color: #5f718c;
-  margin-top: 4rem;
+  margin: 4rem 2rem 0 0;
 }
 
 .main__table {
-  vertical-align: center;
   border-bottom: .1rem solid #ededed;
-  height: 3rem;
+  height: 4.2rem;
   margin: 0;
-  padding-top: 2rem;
+  padding-top: 3.5rem;
 }
 
 .main__table-heading {
@@ -439,12 +438,13 @@ main h2 {
 }
 
 .main__table-h2large {
-  height: 6rem;
+  height: 11rem;
 }
 
 .main__table-plarge {
-  height: 6rem;
+  height: 11rem;
   overflow: scroll;
+  line-height: 1.9rem;
 }
 
 .main__table-img {
@@ -461,9 +461,9 @@ main h2 {
   margin-top: 4rem;
   display: inline-flex;
   flex-flow: column wrap;
-  width: 35%;
+  width: 34.7rem;
 }
-.main__social-btn {
+.main__btn-social {
   width: 100%;
   border: none;
   border-radius: .2rem;
@@ -473,22 +473,76 @@ main h2 {
   font-size: 1.5rem;
 }
 
-.main__social-facebook {
+.main__btn-facebook {
   background-color: #496ec1;
 }
 
-.main__social-twitter {
+.main__btn-twitter {
   background-color: #00a8ef;
 }
 
-.main__social-linkedin {
+.main__btn-linkedin {
   background-color: #0283be;
 }
 
-.social__icon {
+.social__btn-icon {
   font-size: 2rem;
   padding: 0 7rem 0 0;
 }
+
+.main__h2-social {
+  font-size:1.6rem;
+  color:#2a4c5e;
+  align-self: left
+}
+
+.social__icon {
+  padding-right: .6rem;
+}
+
+.main__text-social {
+  color: #a1a8b3;
+  margin: 0;
+  margin-bottom: 3rem;
+  line-height: 2rem;
+}
+
+.main__div-social {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: .2rem solid #d7dee6;
+}
+
+.main__input-social {
+  width: 80%;
+  border: none;
+  border-radius: .2rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  padding: 1.4rem 0rem 1.4rem 2rem;
+}
+
+.main__btn-submit {
+  border: none;
+  background-color: #48bac1;
+  color: #fff;
+  padding: 1.4rem .8rem;
+  position: relative;
+  right: .5rem;
+}
+
+.last__div {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+.last__input {
+  margin-bottom: 0;
+}
+
+
 
 
 
