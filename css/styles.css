@@ -569,6 +569,10 @@ main h2 {
   border-radius: .2rem;
 }
 
+.main__input-social::placeholder {
+  color: #5f718c;
+}
+
 .main__btn-submit {
   position: relative;
   right: .5rem;
@@ -586,6 +590,7 @@ main h2 {
 
 .last__input {
   margin-bottom: 0;
+  width: 100%;
 }
 
 /*======================================================
