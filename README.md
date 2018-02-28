@@ -13,4 +13,4 @@ This project was to make a static recreation of the given comp. We were giving '
 
 ## My comp
 
-<img width="744" alt="screen shot 2018-02-28 at 10 08 42 am" src="https://user-images.githubusercontent.com/34175382/36801463-6f526158-1c6f-11e8-8b93-1fa5f176dcef.png">
+![static3](https://user-images.githubusercontent.com/34175382/36801987-ba79913c-1c70-11e8-9ef4-1f5227a57263.png)
