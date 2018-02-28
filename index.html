@@ -11,7 +11,7 @@
 </head>
 <body>
   <nav class="nav">
-    <button class="nav__button"><i class="icon-left-dir"></i><i class="icon-menu"></i></button>
+    <button class="nav__button nav__button-hamburger"><i class="icon-left-dir"></i><i class="icon-menu"></i></button>
     <input type="search" class="nav__search" name="search" placeholder="Search for a task, job, or resume.">
     <button class="nav__button"><i class="icon-user-plus"></i></button>
     <button class="nav__button"><i class="icon-calendar-plus-o"></i></button>
@@ -23,7 +23,7 @@
         <h1 class="header__h1">Customer Service Representative</h1>
         <p class="header__text-location"><i class="icon-location"></i>San Francisco, CA ∙ <a href="#" class="header__link-preview">Preview this post</a></p>
       </div>
-      <div>
+      <div class="header__div-btn">
         <button class="button__general header__button-open"><i class="icon-circle"></i>OPEN</button>
         <button class="button__general"><i class="icon-bookmark"></i></button>
         <button class="button__general"><i class="icon-pencil-alt"></i></button>
@@ -103,7 +103,9 @@
         <button class="button__general main__btn-left">TOTALS ∙ Out of <b>5,231</b> views</button>
       </article>
       <article class="main__article-right">
-        <img src="images/damnchart.svg" class="main__vertchart" alt="Vertical bar chart of data from throughout the week">
+        <div class="main__div-img">
+          <img src="images/damnchart.svg" class="main__vertchart" alt="Vertical bar chart of data from throughout the week">
+        </div>
         <button class="button__general main__btn-right">APPLICANTS/DAY</button>
       </article>
       <!-- <div class="main__div-button"> -->
@@ -116,6 +118,8 @@
         <hr>
       </div>
       <button class="button__general main__button-collapse"><i class="icon-up-open"></i></button>
+      <button class="button__general main__button-show" >Show Graph Information</button>
+
       <div class="main__div-hr">
         <hr>
       </div>
@@ -166,5 +170,7 @@
       </article>
     </section>
   </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src ="scripts.js"></script>
 </body>
 </html>
