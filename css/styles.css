@@ -512,6 +512,10 @@ main h2 {
   border-radius: .2rem;
 }
 
+.main__btn-social:hover {
+  filter: opacity(80%);
+}
+
 .main__btn-facebook {
   padding-left: 0;
   background-color: #496ec1;
