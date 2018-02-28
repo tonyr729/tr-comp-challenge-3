@@ -1,6 +1,7 @@
 $('.main__button-collapse').on('click', collapseGraph);
 $('.main__button-show').on('click', collapseGraph);
 $('.nav__button-hamburger').on('click', asideToggle);
+$('.aside__link-categorie').on('click', markBox);
 
 var blah = true;
 
@@ -39,4 +40,9 @@ function expandAside() {
   $('.nav').css({ "grid-column-start": "2"})
   $('.header').css({ "grid-column-start": "2"})
   $('.main').css({ "grid-column-start": "2"})
+}
+
+function markBox(event) {
+  event.preventDefault();
+  $(this).children().toggleClass('icon-ok-squared');
 }
