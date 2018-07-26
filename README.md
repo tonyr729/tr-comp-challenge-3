@@ -14,3 +14,13 @@ This project was to make a static recreation of the given comp. We were giving '
 ## My comp
 
 ![static3](https://user-images.githubusercontent.com/34175382/36801987-ba79913c-1c70-11e8-9ef4-1f5227a57263.png)
+
+
+##### Set Up
+
+* Clone this project
+* Run `npm install` from the root directory
+* Open `index.html` in your browser
+---
+
+_(**Turing School of Software & Design Front-end Engineering project - Mod 1:** Final comp assesment to showcase skills in HTML, CSS, and design fundamentals.)_
